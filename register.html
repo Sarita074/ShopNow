@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <title>Shop Now</title>
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="register.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
@@ -10,9 +10,14 @@
     <div class="main">
         <div class="name">
             <p>Shop Now</p>
+
         </div>    
-        <div class="login">
-            <p>Log in</p>
+        <div class="signup">
+            <p>Sign up</p>
+        </div>
+        <div class="inputBox">
+            <i class="fa-solid fa-user"></i>
+            <input type="text" required id="uname" placeholder="Enter your userName">
         </div>
         <div class="inputBox">
             <i class="fa-regular fa-envelope"></i>
@@ -23,9 +28,9 @@
             <input type="password" required id="pwd" placeholder="Enter your password">
         </div>
         <div class="btn">
-            <input type="submit" value="Login" id="btn">
+            <input type="submit" value="Register" id="btn">
         </div>
-        <p>Don't have an account <a href="./register.html">Sign Up</a></p>
+        <p>You have an account <a href="./index.html">Log In</a></p>
     </div>
-    <script src="login.js"></script>
+    <script src="./register.js"></script>
 </body>
