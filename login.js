@@ -25,7 +25,7 @@ document.addEventListener('DOMContentLoaded', () => {
         if (userdetails) {
           localStorage.setItem('username', uname);
           localStorage.setItem('email', email);
-          location.href = '../Home.html';
+          location.href = './Home.html';
         } else {
           alert("your email or password is incorrect");
         }
