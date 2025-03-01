@@ -66,12 +66,12 @@ body {
   color: #000000;
   border: 2px solid black;
   border-radius: 10px;
-  box-shadow: -5px -5px 15px rgba(255, 255, 255, 0.1),
-    5px 5px 15px rgba(0, 0, 0, 0.35);
-  transition: 5s;
+  box-shadow: 0 4px 8px 0 rgba(122, 221, 240, 0.2), 0 6px 20px 0 rgba(86, 215, 232, 0.19);
+  transition: 2s;
 }
 .btn input:hover {
   background-color: transparent;
+  font-size: larger;
 }
 .main > P {
   font-size: medium;
